@@ -12,4 +12,10 @@ export class Exercice2Component implements OnInit {
   ngOnInit() {
   }
 
+  clickConsole(): void{
+
+  	console.log("clic")
+
+  }
+
 }

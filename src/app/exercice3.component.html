@@ -1,0 +1,13 @@
+<br />
+
+<p *ngIf='statut'>p1</p>
+<p *ngIf='!statut'>p2</p>
+
+<br />
+
+<button (click) = 'statut = !statut'>
+	Inverse!!!
+</button>
+
+<br /> 
+<span> {{ statut }} </span>
